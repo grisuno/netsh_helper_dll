@@ -48,9 +48,9 @@ Shellcode Replacement: The example shellcode ("\d34d\beef") is invalid. You must
 ## 📄 License GPLv3
 This code is public domain. Use it responsibly and only in authorized environments.
 
-📚 References
-Official Microsoft Documentation: [InitHelperDll function](https://msdn.microsoft.com/en-us/library/windows/desktop/ms708327)
-Inspiration : [https://github.com/outflanknl/NetshHelperBeacon](https://github.com/outflanknl/NetshHelperBeacon)
+## 📚 References
+- Official Microsoft Documentation: [InitHelperDll function](https://msdn.microsoft.com/en-us/library/windows/desktop/ms708327)
+- Inspiration : [https://github.com/outflanknl/NetshHelperBeacon](https://github.com/outflanknl/NetshHelperBeacon)
 
 ## 🎓 Educational Purpose
 This project is intended to:
