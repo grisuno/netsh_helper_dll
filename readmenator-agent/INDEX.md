@@ -1,7 +1,7 @@
 # Index
 
-| File | Purpose | Subsystem | Symbols | Used by |
-|------|---------|-----------|---------|---------|
-| `app.py` | Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación... | root | 0 | 0 |
-| `install.sh` | - | root | 0 | 0 |
-| `main.c` | Simple code for creating a DLL for netsh helper DLLs. | root | 1 | 0 |
+| File | Purpose | Subsystem | Symbols |
+|------|---------|-----------|---------|
+| `app.py` | app.py  Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]c | root | 0 |
+| `install.sh` | - | root | 0 |
+| `main.c` | Simple code for creating a DLL for netsh helper DLLs. Netsh helper DLLs require  | root | 1 |

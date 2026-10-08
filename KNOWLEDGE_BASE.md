@@ -11,7 +11,7 @@
 
 **Total Files Parsed:** 3 | **Total Symbols Extracted:** 1 | **Total Imports:** 3
 
-<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:1e0fd0b | date:2026-07-18 -->
+<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:05a4468 | date:2026-07-18 -->
 
 
 ## Table of Contents
@@ -23,13 +23,12 @@
 5. [Suggested Questions](#suggested-questions)
 6. [Hotspot Analysis](#hotspot-analysis)
 7. [Change Impact Analysis](#change-impact-analysis)
-8. [Concept Graph](#concept-graph)
-9. [Orphans](#orphans)
-10. [Query Recipes](#query-recipes)
-11. [Structural Knowledge Map](#structural-knowledge-map)
-12. [UML Class Diagram](#uml-class-diagram)
-13. [Code Property Graph](#code-property-graph)
-14. [Architecture Reference](#architecture-reference)
+8. [Orphans](#orphans)
+9. [Query Recipes](#query-recipes)
+10. [Structural Knowledge Map](#structural-knowledge-map)
+11. [UML Class Diagram](#uml-class-diagram)
+12. [Code Property Graph](#code-property-graph)
+13. [Architecture Reference](#architecture-reference)
     - [C (1 files)](#c-1-files)
     - [PY (1 files)](#py-1-files)
     - [SH (1 files)](#sh-1-files)
@@ -118,30 +117,6 @@ Files ranked by combined complexity (symbol count) and centrality (connection co
 | `app.py` | 0.000 | 0.500 | 0.300 | 0 | 1 |
 | `main.c` | 1.000 | 1.000 | 1.000 | 1 | 2 |
 | `install.sh` | 0.000 | 0.000 | 0.000 | 0 | 0 |
-
----
-
-## Concept Graph
-
-Semantic second-brain layer: nouns are concept nodes, verbs are edges. Each noun maps atomically to a file set (EXTRACTED); each verb aggregates structural imports, calls, and inherits into consumes, invokes, extends, depends_on, or bridges (INFERRED).
-
-**4 concepts, 0 relations.**
-
-| Concept | Files | Mentions |
-|---------|-------|----------|
-| `helper` | 2 | 5 |
-| `dll` | 2 | 4 |
-| `netsh` | 2 | 4 |
-| `code` | 2 | 2 |
-
-### Dialectic Prompts
-
-- Thesis: `code` centralizes 2 files; Antithesis: `dll` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `code` centralizes 2 files; Antithesis: `helper` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `code` centralizes 2 files; Antithesis: `netsh` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `dll` centralizes 2 files; Antithesis: `helper` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `dll` centralizes 2 files; Antithesis: `netsh` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `helper` centralizes 2 files; Antithesis: `netsh` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
 
 ---
 

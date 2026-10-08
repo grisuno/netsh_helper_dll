@@ -6,5 +6,6 @@
 
 ## External Imports
 
-- `app.py` -> os
-- `main.c` -> stdio.h, windows.h
+- `app.py` -> `os`
+- `main.c` -> `stdio.h`
+- `main.c` -> `windows.h`
