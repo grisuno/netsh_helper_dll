@@ -1,0 +1,49 @@
+{
+  "concepts": [
+    {
+      "name": "helper",
+      "files": [
+        "app.py",
+        "main.c"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "dll",
+      "files": [
+        "app.py",
+        "main.c"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "netsh",
+      "files": [
+        "app.py",
+        "main.c"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "code",
+      "files": [
+        "app.py",
+        "main.c"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [],
+  "dialectic": [
+    "Thesis: `code` centralizes 2 files; Antithesis: `dll` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `code` centralizes 2 files; Antithesis: `helper` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `code` centralizes 2 files; Antithesis: `netsh` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `dll` centralizes 2 files; Antithesis: `helper` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `dll` centralizes 2 files; Antithesis: `netsh` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `helper` centralizes 2 files; Antithesis: `netsh` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}
